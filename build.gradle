@@ -1,0 +1,17 @@
+apply plugin: 'java'
+apply plugin: 'jetty'
+apply plugin: 'idea'
+apply plugin: 'eclipse'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile(
+            'org.springframework:spring-core:3.0.5.RELEASE',
+            'org.springframework:spring-web:3.0.5.RELEASE',
+            'org.springframework:spring-webmvc:3.0.5.RELEASE'
+    )
+}
+
