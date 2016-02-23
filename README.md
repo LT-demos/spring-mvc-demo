@@ -4,23 +4,13 @@ So I create one, the code is originally from <http://www.mkyong.com/spring3/spri
 
 ## how to run ##
 
-1. Clone the project to your local computer
-
-        git clone https://github.com/freewind/SpringMVCDemo.git
-
-2. If you have installed `gradle`, just run:
-
-        gradle jettyRun
-
-3. otherwise, run:
-
-        ./gradlew jettyRun
+    ./gradlew jettyRun
 
    Which will download gradle and run it automatically.
 
-4. Finally, open your browser, visit:
+The visit in your browse:
 
-        http://localhost:8080/SpringMVCDemo/welcome
+        http://localhost:8080/spring-mvc-demo/welcome
 
 ## how to develop on it ##
 
